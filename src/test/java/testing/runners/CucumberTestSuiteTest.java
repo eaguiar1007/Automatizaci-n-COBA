@@ -8,9 +8,10 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty", "html:target/cucumber-reports/cucumber.html"},
-        features = "src/test/resources/features/search/LoginPage.feature",
+        features = "src/test/resources/features/search/Login.feature",
         glue = "testing/stepdefinitions",
-        snippets = CucumberOptions.SnippetType.CAMELCASE
+        snippets = CucumberOptions.SnippetType.CAMELCASE,
+        tags = "@LoginExitoso"
 )
 public class CucumberTestSuiteTest {}
 
