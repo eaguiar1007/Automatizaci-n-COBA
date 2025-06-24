@@ -13,4 +13,11 @@ public class StepUrl {
         OnStage.theActorCalled(actor);
         OnStage.theActorInTheSpotlight().wasAbleTo(Open.browserOn().thePageNamed(PAGE_URL));
     }
+
+    @Given("que el usuario se encuntra en la pagina de Login")
+    public void abreLaPágina() {
+        OnStage.theActorCalled("user");
+        OnStage.theActorInTheSpotlight().wasAbleTo(Open.browserOn().thePageNamed(PAGE_URL));
+    }
+
 }
