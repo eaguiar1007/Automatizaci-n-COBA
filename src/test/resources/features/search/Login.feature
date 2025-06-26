@@ -8,6 +8,7 @@ Background:
 	When el especialista digita su usuario y contraseña correcto
 
    # cambio de prueba
+	# cambio de prueba 2
 
 	#intento 1
 	Scenario Outline: Inicio de sesión con credenciales incorrectas primer intento
