@@ -21,9 +21,8 @@ public class LoginCredenciales implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                //Enter.theValue("iparada").into(TXT_USUARIO)
+                Enter.theValue("iparada").into(TXT_USUARIO)
         );
-
         try {
             Thread.sleep(3000); // espera 3 segundos
         } catch (InterruptedException e) {
