@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Autenticación de usuario en el sistema" skipped="0" tests="1" time="4.08" timestamp="2025-06-24 05:44:35"><testcase name="Inicio de sesión Exitoso"><error message="Step [que el usuario se encuntra en la pagina de Login] is defined with 1 parameters at 'testing.stepdefinitions.commons.StepUrl.abreLaPágina(java.lang.String)'.&#10;However, the gherkin step has 0 arguments.&#10;Step text: que el usuario se encuntra en la pagina de Login" type="io.cucumber.core.exception.CucumberException">Step [que el usuario se encuntra en la pagina de Login] is defined with 1 parameters at 'testing.stepdefinitions.commons.StepUrl.abreLaPágina(java.lang.String)'.
-However, the gherkin step has 0 arguments.
-Step text: que el usuario se encuntra en la pagina de Login</error><system-err>Step [que el usuario se encuntra en la pagina de Login] is defined with 1 parameters at 'testing.stepdefinitions.commons.StepUrl.abreLaPágina(java.lang.String)'.
-However, the gherkin step has 0 arguments.
-Step text: que el usuario se encuntra en la pagina de Login
-</system-err></testcase></testsuite>

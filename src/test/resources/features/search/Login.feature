@@ -7,7 +7,7 @@ Background:
 	Scenario: Inicio de sesión Exitoso	
 	When el especialista digita su usuario y contraseña correcto
 
-   # cambio de prueba
+   # cambio de prueband
 
 	#intento 1
 	Scenario Outline: Inicio de sesión con credenciales incorrectas primer intento
