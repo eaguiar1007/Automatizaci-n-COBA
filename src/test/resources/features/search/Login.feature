@@ -6,6 +6,10 @@ Background:
 	@LoginExitoso
 	Scenario: Inicio de sesión Exitoso	
 	When el especialista digita su usuario y contraseña correcto
+	Then valida el texto de la pagina
+
+
+
 
    	# cambio de prueba
 	# cambio de prueba 2
