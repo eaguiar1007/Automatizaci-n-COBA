@@ -22,6 +22,7 @@ public class Hooks {
     public void setUpBrowser(Scenario scenario) {
         WebDriverManager.chromedriver().setup(); // Esto descarga el driver si no está
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
         OnStage.theActorCalled("Usuario").can(BrowseTheWeb.with(driver));
 
         // Guardamos el nombre del escenario en la sesión de Serenity (opcional)
