@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features/search/Login.feature",
         glue = "testing/stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@LoginExitoso"
+        tags = "@LoginIncorrecto1"
 )
 public class CucumberTestSuiteTest {}
 

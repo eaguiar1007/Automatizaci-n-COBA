@@ -10,6 +10,17 @@ public class LoginUI {
     public static final String MNJ_TITULO = "Puedes observar el estado de las solicitudes realizadas en los últimos 3 meses";
 
 
+    public static final Target ERROR1 = Target.the("Mensaje error")
+            .located(ByShadow.cssSelector(
+     "slot[name='content']",        // Selector interno final
+            "sp-ml-modal",                // Shadow host nivel 1
+"sp-at-backdrop"         // Shadow host nivel 2
+    ));
+
+
+    public static final String MNJ_ERROR1 = "Te quedan 2 intentos de ingreso o se bloqueará el usuario.";
+
+
 
     public static final Target TXT_USUARIO = Target.the("campo usuario")
             .located(ByShadow.cssSelector(

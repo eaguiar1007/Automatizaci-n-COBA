@@ -15,9 +15,10 @@ Background:
 	# cambio de prueba 2
 
 	#intento 1
+	@LoginIncorrecto1
 	Scenario Outline: Inicio de sesión con credenciales incorrectas primer intento
 	When el especialista digita el usuario "<usuario>" y la contraseña "<contraseña>"
-	Then muestra recuadro con texto: "Te quedan 2 intentos de ingreso o se bloqueará el usuario" y debajo al lado derecho botón azul con texto Entendido
+	Then valida mensaje de error
  
 	Examples:
 	  | usuario         | contraseña     |
